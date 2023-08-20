@@ -1,0 +1,1408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    font-family: Poppins;
+
+}
+
+.navbar h5{
+    margin-top: 0;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.navbar select{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    box-shadow: black;
+    position: relative;
+    left: 1100px;
+    top: -43px;
+    border-color: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.navbar select:hover{
+    border-color: black;
+}
+
+.navbar .ikon{
+    color: gray;
+    position: relative;
+    left: 1120px;
+    top: -40px;
+    font-size: 20px;
+}
+
+.navbar .akkaunt{
+    color: white;
+    position: relative;
+    left: 1265px;
+    top: -80px;
+}
+
+.navbar .lupa{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 1370px;
+    top: -124px;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar2{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.navbar2 .shop{
+    text-decoration: none;
+    font-family: Poppins;
+    color: black;
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    top: 50px;
+}
+
+.navbar2 .glavniy{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+
+.navbar2 .assartiment{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    position: relative;
+    left: 610px;
+    top: 50px;
+}
+
+.navbar2 .issiq{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    position: relative;
+    left: 630px;
+    top: 50px;
+}
+
+.navbar2 .skidkalar{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-family: Poppins;
+    left: 640px;
+    top: 50px;
+}
+
+.navbar2 .knopka{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 700px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.navbar2 .strelka{
+    position: relative;
+    left: 1325px;
+    top: -2px;
+}
+
+.rasm1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(13, 12, 12);
+}
+
+.rasm1 .sotvolish{
+    width: 200px;
+    height: 80px;
+    position: relative;
+    left: 400px;
+    top: -150px;
+    background-color: rgb(28, 28, 28);
+    border: 4px solid black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rasm1 .sotvolish:hover{
+    border-color: rgb(28, 28, 28);
+}
+
+.rasm1 .text{
+    font-family: Poppins;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    left: 380px;
+}
+
+.rasm1 .text1{
+    color: white;
+    font-family: Poppins;
+    font-size: 90px;
+    position: relative;
+    left: 250px;
+    top: -120px;
+}
+
+.rasm1 .Lorem1{
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 190px;
+    top: -150px;
+}
+
+.rasm1 .Lorem2{
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 170px;
+    top: -170px;
+}
+
+.rasm1 .Lorem3{
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 170px;
+    top: -190px;
+}
+
+.rasm1 .Lorem4{
+    color: white;
+    font-family: Poppins;
+    position: relative;     
+    left: 170px;
+    top: -210px;
+}
+
+.rasm1 .rasm2{
+    position: relative;
+    left: 1000px;
+    top: -605px;
+    width: 350px;
+}
+
+.rasm1 .ikonka1{
+    color: white;
+    position: relative;
+    top: -143px;
+    left: 350px;
+    font-size: 25px;
+}
+
+.rasm1 .knopka1{
+    width: 40px;
+    height: 100px;
+    position: relative;
+    top: -940px;
+    left: -360px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border: 1px solid rgb(75, 75, 75);
+    color: rgb(101, 101, 101);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.rasm1 .knopka1:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    color: white;
+}
+
+.rasm1 .knopka2{
+    width: 40px;
+    height: 100px;
+    position: relative;
+    top: -940px;
+    left: 1062px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border: 1px solid rgb(75, 75, 75);
+    color: rgb(101, 101, 101);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.rasm1 .knopka2:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    color: white;
+}
+
+.dumalolar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.dumalolar .dumalo1{
+    position: relative;
+    left: 700px;
+    top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dumalolar .dumalo2{
+    color: gray;
+    position: relative;
+    left: 700px;
+    top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dumalolar .dumalo3{
+    color: gray;
+    position: relative;
+    left: 700px;
+    top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbar3{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.navbar3 .vash{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 250px;
+    top: 35px;
+}
+
+.navbar3 .Tarmoqlar{
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 1000px;
+    top: -25px;
+    font-size: 15px;
+}
+
+.navbar3 .tarmoqlar1{
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    position: relative;
+    top: -115px;
+    left: 1115px;
+}
+
+.navbar3 .tarmoqlar1 .facebook{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+    z-index: 2;
+    opacity: 1;
+}
+
+.navbar3 .tarmoqlar1 .facebook:hover{     
+    filter: drop-shadow(7px 7px 0.9px #000000);
+}
+
+.navbar3 .tarmoqlar1 .twitter{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navbar3 .tarmoqlar1 .twitter:hover{
+    filter: drop-shadow(7px 7px 0.9px #000000);
+}
+
+.navbar3 .tarmoqlar1 .pinterest{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+}
+
+.navbar3 .tarmoqlar1 .pinterest:hover{
+    filter: drop-shadow(7px 7px 0.9px #000000);
+}
+
+.kostyumlar{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.kostyumlar .kostyum1{
+    width: 500px;
+    /* height: 400px; */
+    size: 500px;
+    position: relative;
+    left: 100px;
+    top: 90px;
+}
+
+.kostyumlar .kostyum2{
+    width: 250px;
+    position: relative;
+    left: 120px;
+    top: -77px;
+}
+
+.kostyumlar .kostyum3{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    left: -134px;
+    top: 90px;
+}
+
+.kostyumlar .kostyum4{
+    width: 500px;
+    height: 340px;
+    size: 500px;
+    position: relative;
+    left: 900px;
+    top: -250px;
+}
+
+.kostyumlar .issiqlari{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    position: relative;
+    top: -140px;
+    left: -350px;
+    cursor: pointer;
+}
+
+.kostyumlar .dizayn{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    position: relative;
+    top: -147px;
+    left: -350px;
+    cursor: pointer;
+}
+
+.kostyumlar .kolleksiya{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    position: relative;
+    top: -147px;
+    left: -350px;
+    cursor: pointer;
+}
+
+.narxlar{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.narxlar .koyne1{
+    width: 325px;
+    height: 460px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.narxlar .koyne1 .rasm3{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar .koyne1 .rubashka1{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar .koyne1 .narxi{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar .koyne1 .kupit{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar .koyne1 .ong{
+    position: relative;
+    top: 2px;
+}
+
+
+
+.narxlar .koyne2{
+    width: 325px;
+    height: 460px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: -440px;
+}
+
+.narxlar .koyne2 .rasm4{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar .koyne2 .rubashka2{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar .koyne2 .narxi1{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar .koyne2 .kupit1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar .koyne2 .ong1{
+    position: relative;
+    top: 2px;
+}
+
+
+.narxlar .koyne3{
+    width: 325px;
+    height: 460px;
+    background-color: white;
+    position: relative;
+    left: 750px;
+    top: -900px;
+}
+
+.narxlar .koyne3 .rasm5{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar .koyne3 .rubashka3{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar .koyne3 .narxi2{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar .koyne3 .kupit2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rasm2
+
+.narxlar .koyne3 .ong2{
+    position: relative;
+    top: 2px;
+}
+
+
+
+.narxlar .koyne4{
+    width: 325px;
+    height: 460px;
+    background-color: white;
+    position: relative;
+    left: 1100px;
+    top: -1360px;
+}
+
+.narxlar .koyne4 .rasm6{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar .koyne4 .rubashka4{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar .koyne4 .narxi3{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar .koyne4 .kupit3{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar .koyne4 .ong3{
+    position: relative;
+    top: 2px;
+}
+
+
+.narxlar1{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.narxlar1 hr{
+    margin-top: 0;
+    width: 92%;
+    height: 0.3px;
+    position: relative;
+    top: 50px;
+    left: -10px;
+    background-color: black;
+    z-index: 2;
+}
+
+.narxlar1 .koyne5{
+    width: 325px;
+    height: 460px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50px;
+    top: 55px;
+}
+
+.narxlar1 .koyne5 .rasm7{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar1 .koyne5 .rubashka5{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar1 .koyne5 .narxi4{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar1 .koyne5 .kupit4{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar1 .koyne5 .ong4{
+    position: relative;
+    top: 2px;
+}
+
+.narxlar1 .koyne6{
+    width: 325px;
+    height: 460px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 400px;
+    top: -405px;
+}
+
+.narxlar1 .koyne6 .rasm8{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar1 .koyne6 .rubashka6{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar1 .koyne6 .narxi5{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar1 .koyne6 .kupit5{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar1 .koyne6 .ong5{
+    position: relative;
+    top: 2px;
+}
+
+.narxlar1 .koyne7{
+    width: 325px;
+    height: 460px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 750px;
+    top: -865px;
+}
+
+.narxlar1 .koyne7 .rasm9{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar1 .koyne7 .rubashka7{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar1 .koyne7 .narxi6{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar1 .koyne7 .kupit6{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar1 .koyne7 .ong6{
+    position: relative;
+    top: 2px;
+}
+
+.narxlar1 .koyne8{
+    width: 325px;
+    height: 460px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 1100px;
+    top: -1325px;
+}
+
+.narxlar1 .koyne8 .rasm10{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 316px;
+    height: 250px;
+}
+
+.narxlar1 .koyne8 .rubashka8{
+    font-family: Poppins;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.narxlar1 .koyne8 .narxi7{
+    font-family: poppins;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.narxlar1 .koyne8 .kupit7{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar1 .koyne8 .ong7{
+    position: relative;
+    top: 2px;
+}
+
+.hamkorla{
+    width: 100%;
+    height: 370px;
+    background-color: white;
+}
+
+.hamkorla .hr1{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    left: -500px;
+    top: 60px;
+}
+
+.hamkorla .hr2{
+    width: 55%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+
+.hamkorla .brandla{
+    font-family: Poppins;
+    position: relative;
+    left: 690px;
+    top: -19px;
+    font-size: 25px;
+}
+
+.hamkorla .brandla1{
+    font-family: Poppins;
+    position: relative;
+    font-size: 30px;
+    left: 700px;
+    top: -65px;
+    font-size: 25px;
+}
+
+.hamkorla .ongga{
+    color: rgb(210, 193, 193);
+    background-color: rgb(243, 227, 227);
+    border: 1px solid rgb(243, 227, 227);
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+    left: 250px;
+    cursor: pointer;
+}
+
+.hamkorla .chapga{
+    color: rgb(210, 193, 193);
+    background-color: rgb(243, 227, 227);
+    border: 1px solid rgb(243, 227, 227);
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+    left: 1350px;
+    cursor: pointer;
+}
+
+.hamkorla .adidas{
+    width: 50px;
+    position: relative;
+    left: 280px;
+    top: -70px;
+}
+
+.hamkorla .calvin{
+    width: 50px;
+    position: relative;
+    left: 320px;
+    top: -70px;
+}
+
+.hamkorla .hmkrla{
+    width: 800px;
+    position: relative;
+    left: 340px;
+    top: -80px;
+}
+
+.hamkorla .podrobniy{       
+    font-family: poppins;
+    position: relative;
+    left: 550px;
+    top: -100px;
+    font-size: 35px;
+}
+
+.hamkorla .photoshop{
+    font-family: sans-serif;
+    position: relative;
+    left: 350px;
+    top: -100px;
+}
+
+.qora{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+.qora .nash{
+    position: relative;
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    left: 150px;
+    top: 50px;
+}
+
+.qora .informat{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.qora .komp{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.qora .istoriya{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.alar{
+    transition: .2s;
+}
+
+.alar:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .alar .kont{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 150px;
+    top: 90px;
+}
+
+.qora .alar .faq{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 90px;
+    top: 110px;
+}
+
+.qora .alar .terms{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 55px;
+    top: 127px;
+}
+
+.qora .alar .sale{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: -88px;
+    top: 147px;
+}
+
+.alarr{
+    transition: .2s;
+}
+
+.alarr:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+    display: inline-block;
+}
+
+.qora .alarr .aff{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 388px;
+    top: 60px;
+}
+
+.qora .alarr .cook{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 330px;
+    top: 80px;
+}
+
+.qora .alarr .how{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 265px;
+    top: 100px;
+}
+
+.qora .alarr .about{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 155px;
+    top: 120px;
+}
+
+.kompp{
+    transition: .2s;
+}
+
+.kompp:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .kompp .dres{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 610px;
+    top: 40px;
+}
+
+.qora .kompp .make{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 484px;
+    top: 56px;
+}
+
+.qora .kompp .fashion{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 415px;
+    top: 75px;
+}
+
+.qora .kompp .train{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 285px;
+    top: 95px;
+}
+
+.istt1{
+    transition: .2s;
+}
+
+.qora .istt1:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .istt1 .new{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 795px;
+    top: 15px;
+}
+
+.qora .istt1 .paris{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 837px;
+    top: 35px;
+}
+
+.qora .istt1 .london{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 715px;
+    top: 55px;
+}
+
+.seti{
+    position: relative;
+    font-family: sans-serif;
+    left: 1000px;
+    top: -75px;
+    color: white;
+    font-size: 18px;
+}
+
+.qora .istt1 .madrid{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 655px;
+    top: 75px;
+}
+
+.qora .twitter1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1000px;
+    top: -50px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .twitter1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.qora .twitter1 .tw{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .twitter1 .tw:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .pin1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1060px;
+    top: -100px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .pin1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .pin1 .pin{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .pin1 .pin:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .face1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1120px;
+    top: -150px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .face1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .face1 .face{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .face1 .face:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .goo1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1000px;
+    top: -140px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .goo1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .goo1 .goo{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .goo1 .goo:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .t1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1060px;
+    top: -190px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .t1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .t1 .t{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .t1 .t:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .vi1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1120px;
+    top: -240px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .vi1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .vi1 .vi{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .vi1 .vi:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}

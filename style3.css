@@ -1,0 +1,1245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    font-family: Poppins;
+}
+
+.navbar h5{
+    margin-top: 0;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.navbar select{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    box-shadow: black;
+    position: relative;
+    left: 1000px;
+    top: -3px;
+    border-color: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.navbar select:hover{
+    border-color: black;
+}
+
+.navbar .ikon{
+    color: gray;
+    position: relative;
+    left: 1020px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.navbar .akkaunt{
+    color: white;
+    position: relative;
+    left: 1035px;
+    top: 5px;
+}
+
+.navbar .lupa{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 1370px;
+    top: -124px;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar2{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.navbar2 .shop{
+    text-decoration: none;
+    font-family: Poppins;
+    color: black;
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    top: 50px;
+}
+
+.navbar2 .glavniy{
+    text-decoration: none;
+    color: gray;
+    font-family: Poppins;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+
+.navbar2 .glavniy:hover{
+    color: rgb(105, 88, 88);
+}
+
+.navbar2 .assartiment{
+    text-decoration: none;
+    color: gray;
+    font-family: Poppins;
+    position: relative;
+    left: 610px;
+    top: 50px;
+}
+
+.navbar2 .assartiment:hover{
+    color: rgb(105, 88, 88);
+}
+
+.navbar2 .issiq{
+    text-decoration: none;
+    color: gray;
+    font-family: Poppins;
+    position: relative;
+    left: 630px;
+    top: 50px;
+}
+
+.navbar2 .issiq:hover{
+    color: rgb(105, 88, 88);
+}
+
+.navbar2 .skidkalar{
+    text-decoration: none;
+    position: relative;
+    color: gray;
+    font-family: Poppins;
+    left: 640px;
+    top: 50px;
+}
+
+.navbar2 .skidkalar:hover{
+    color: rgb(105, 88, 88);
+}
+
+.navbar2 .knopka{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 700px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.navbar2 .strelka{
+    position: relative;
+    left: 1325px;
+    top: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.info{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 0 40px;
+}
+.info #til{
+    background-color: transparent;
+    color: white;
+    padding: 8px 12px;
+    transform: .5s;
+}
+.info #til:hover{
+    border-bottom: 3px grey sollid;
+    border-left: 3px grey sollid;
+    border-right: 3px grey sollid;
+    cursor: pointer;
+}
+.info option{
+    color: black;
+}
+.number{
+    align-items: flex-start;
+    margin-left: 35px;
+    font-size: 17px;
+    margin-right: 800px;
+}
+.info h3{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.info h4{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.number2{
+    font-size: 15px;
+}
+.account{
+    display: flex;
+    margin: 0 50px;
+    margin-top: 5px; 
+}
+.account_logo{
+    color: grey;
+    padding-right: 2px;
+}
+.search{
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    transform: 0.5s;
+}
+.search{
+    cursor: pointer;
+}
+.search_logo{
+    margin: 6px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    margin-left: 450px;
+}
+.nav a{
+    text-decoration: none;
+    color: #414141;
+    margin-right: 20px;
+    font-family: sans-serif;
+    transition: 1s;
+}
+.name h1{
+    font-size: 20px;
+    font-weight: 15;
+    font-family: sans-serif;
+    transform: 1s;
+}
+.nav a:hover{
+    color: #000;
+    cursor: pointer;
+}
+.name h1:hover{
+    cursor: pointer;
+}
+.select{
+    top: -15px;
+    position: relative;
+    margin-left: 100px;
+    display: inline-block;
+}
+.drop-down{
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    display: none;
+}
+.dropbutton {
+    width: 300px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-style: 18px;
+    border: 1px black solid;
+}
+.drop-down a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+    display: block;
+    border: 1px solid black;
+}
+.drop-down a:active{
+    background-color: white;
+}
+.select:active .drop-down{
+    display: block; 
+}
+.dropbutton .logo_button1{
+    padding-left: 190px;
+}
+.drop-down .logo_button2{
+    padding-right: 140px;
+    font-size: 25px;
+}
+.line{
+    margin: 0 70px;
+    margin-top: 50px;
+    height: 1px;
+    background-color: #999;
+}
+.line_2{
+    background-color: #999;
+    height: 1px;
+    margin: 0 80px;
+}
+.home{
+    margin: 20px 70px;
+}
+.best_photo{
+    display: flex;
+    margin: 50px 50px;
+}
+.best_photo .arrow,.arrow_2{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    height: 120px;
+    width: 30px;
+    justify-content: center;
+    background-color: #dcd9d9;
+    color: white;
+}
+.photo{
+    width: 650px;
+    height: 435px;
+    margin-left: 20px;
+}
+.text_1{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    margin: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+}
+.narx_1{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.name_1{
+    position: relative;
+    top: 45px;
+    left: 30px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+.arrow{
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.arrow_2{
+    margin-top: 170px;
+    margin-left: 150px;
+}
+.best_photo .kupit{
+    width: 120px;
+    height: 45px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    font-size: 10px;
+    transition: .5s;
+}
+.all_circle{
+    margin: 10px 0;
+    justify-content: center;
+    display: flex;
+}
+.circle1{
+    margin: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    animation: 5s bc1 infinite;
+    cursor: pointer;
+}
+.circle2{
+    margin: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    animation: 10s bc2 infinite;
+    cursor: pointer;
+}
+.circle3{
+    margin: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    animation: 15s bc3 infinite;
+    cursor: pointer;
+}
+@keyframes  bc1 {
+    0%{
+        background-color: grey;
+    }
+    100%{
+        background-color: black;
+    }
+}
+@keyframes bc2 {
+    0%{
+        background-color: grey;
+    }
+    100%{
+        background-color: black;
+    }
+}
+@keyframes bc3 {
+    0%{
+        background-color: grey;
+    }
+    100%{
+        background-color: black;
+    }
+}
+main{
+    width: 100%;
+    height: 1700px;
+}
+.shop_l{ 
+    display: flex;
+    position: relative;
+    top: -650px;
+    justify-content: space-between;
+    width: 870px;
+    height: 38px;
+    align-items: center;
+    padding: 0 12px;
+    padding-bottom: 15px;
+}
+.box1{  
+    display: inline-flex;
+}
+.box2{
+    display: inline-flex;
+}
+.container{
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    height: auto;
+    padding: 11px 0;
+    padding-left: 11px;
+    padding-right: 146px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    height: auto;
+    padding: 11px 0;
+    padding-left: 11px;
+    padding-right: 146px;
+}
+.btn_{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    height: auto;
+    padding: 11px 0;
+    padding-left: 11px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: #414141 solid 1px;
+}
+.shop_r{
+    display: flex;
+    flex-direction: column;
+}
+.icon1{
+    padding-left: 185px;
+}
+.icon2{
+    padding-left: 150px;
+}
+.icon3{
+    padding-left: 210px;
+}
+.border{
+    border: #000;
+}
+.borderchild2{
+    padding: 6px 12px;
+    background-color: #000;
+    color: #fff;
+}
+.borderchild{
+    padding: 6px 12px;
+    color: blue;
+}
+.narxlar{
+    position: relative;
+    top: -1280px;
+    width: 100%;
+    height: 550px;
+}
+
+.narxlar .koyne1{
+    width: 325px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.narxlar .koyne1 .rasm{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 310px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.narxlar .koyne1 .rubashka1{
+    font-family: Poppins;
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+
+.narxlar .koyne1 .narxi{
+    font-family: poppins;
+    position: relative;
+    top: 10px;
+    left: 125px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.narxlar .koyne1 .kupit{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar .koyne1 .ong{
+    position: relative;
+    top: 2px;
+}
+
+
+
+.narxlar .koyne2{
+    width: 325px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: -480px;
+}
+
+.narxlar .koyne2 .rasm2{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 310px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.narxlar .koyne2 .rubashka2{
+    font-family: Poppins;
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+
+.narxlar .koyne2 .narxi1{
+    font-family: poppins;
+    position: relative;
+    top: 10px;
+    left: 125px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.narxlar .koyne2 .kupit1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.narxlar .koyne2 .ong1{
+    position: relative;
+    top: 2px;
+}
+
+
+.narxlar .koyne3{
+    width: 325px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 750px;
+    top: -980px;
+}
+
+.narxlar .koyne3 .rasm3{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 310px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.narxlar .koyne3 .rubashka3{
+    font-family: Poppins;
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+
+.narxlar .koyne3 .narxi2{
+    font-family: poppins;
+    position: relative;
+    top: 1px;
+    left: 125px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.narxlar .koyne3 .kupit2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(29, 25, 25);
+    border: 4px solid black;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 65px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.koyne3
+
+.narxlar .koyne3 .ong2{
+    position: relative;
+    top: 2px;
+}
+.range{
+    margin: 30px 0;
+    background-color: #000;
+    padding: 5px 0;
+    width: 300px;
+    /* display: flex;
+    align-items: center; */
+    border-radius: 50px;
+}
+.range input{
+    width: 100%;
+}
+.line_3{
+    margin-right: 460px;
+    margin-left: 60px;
+}
+.filtr h4{
+    font-weight: 10;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.filtr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filtr .filter_btn{
+    padding: 6px 12px;
+    background-color: #dddddd;
+    color: #000;
+    border: none;
+}
+.filtr .filter_btn:hover{
+    background-color: #000;
+    color: #666;
+    cursor: pointer;
+}
+.filtr2 h4{
+    font-family: sans-serif;
+    margin-top: 50px;
+    font-weight: 10;
+    font-size: 15px;
+}
+.sizefath{
+    display: flex;
+}
+.size{
+    margin: 2.5px;
+    padding: 5px;
+    transform: .5s;
+    background-color: #d8d4d4;
+}
+.size:hover{
+    margin: 2.5px;
+    padding: 2px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.name_{
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #000;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+.best{
+    display: flex;
+    margin: 20px 10px;
+}
+.thing_name{
+    font-family: sans-serif;
+    font-size: 8px;
+    margin: 5px 10px;
+    font-weight: 50;
+}
+.narx{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 10px 10px;
+    font-weight: 100;
+}
+.hr{
+    margin: 10px 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 170px;
+    margin-bottom: none;
+    padding: 50px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 50;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: none;
+}
+.row p{
+    font-size: 15px;
+    color: #999;
+    transition: 1s;
+}
+.row p:hover{
+    cursor: pointer;
+    filter: drop-shadow(15px 10px 0.9px #fff);
+}
+.container{
+    align-items: center;
+    display: flex;
+    margin-bottom: none;
+}
+.more_in_1{
+    margin-right: 840px;
+}
+.more_in_2{
+    text-align: right;
+}
+.foot_icon{
+    font-size: 40px;
+}
+.logoio{
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #999;
+    color: #fff;
+    border-radius: 50%;
+    transform: .5s;
+}
+.logoio:hover{
+    cursor: pointer;
+    color: #999;
+    background-color: #fff;
+}
+
+
+.qora{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    top: 250px;
+}
+
+.qora .nash{
+    position: relative;
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    left: 150px;
+    top: 50px;
+}
+
+.qora .informat{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.qora .komp{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.qora .istoriya{
+    text-decoration: none;
+    font-family: Poppins;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.alar{
+    transition: .2s;
+}
+
+.alar:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .alar .kont{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 150px;
+    top: 90px;
+}
+
+.qora .alar .faq{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 90px;
+    top: 110px;
+}
+
+.qora .alar .terms{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 55px;
+    top: 127px;
+}
+
+.qora .alar .sale{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: -88px;
+    top: 147px;
+}
+
+.alarr{
+    transition: .2s;
+}
+
+.alarr:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+    display: inline-block;
+}
+
+.qora .alarr .aff{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 388px;
+    top: 60px;
+}
+
+.qora .alarr .cook{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 330px;
+    top: 80px;
+}
+
+.qora .alarr .how{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 265px;
+    top: 100px;
+}
+
+.qora .alarr .about{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 155px;
+    top: 120px;
+}
+
+.kompp{
+    transition: .2s;
+}
+
+.kompp:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .kompp .dres{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 610px;
+    top: 40px;
+}
+
+.qora .kompp .make{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 484px;
+    top: 56px;
+}
+
+.qora .kompp .fashion{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 415px;
+    top: 75px;
+}
+
+.qora .kompp .train{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 285px;
+    top: 95px;
+}
+
+.istt1{
+    transition: .2s;
+}
+
+.qora .istt1:hover{
+    filter: drop-shadow(15px 10px 0.9px white);
+}
+
+.qora .istt1 .new{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 795px;
+    top: 15px;
+}
+
+.qora .istt1 .paris{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 837px;
+    top: 35px;
+}
+
+.qora .istt1 .london{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 715px;
+    top: 55px;
+}
+
+.seti{
+    position: relative;
+    font-family: sans-serif;
+    left: 1000px;
+    top: -75px;
+    color: white;
+    font-size: 18px;
+}
+
+.qora .istt1 .madrid{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    font-size: 15px;
+    left: 655px;
+    top: 75px;
+}
+
+.qora .twitter1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1000px;
+    top: -50px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .twitter1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.qora .twitter1 .tw{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .twitter1 .tw:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .pin1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1060px;
+    top: -100px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .pin1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .pin1 .pin{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .pin1 .pin:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .face1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1120px;
+    top: -150px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .face1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .face1 .face{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .face1 .face:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .goo1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1000px;
+    top: -140px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .goo1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .goo1 .goo{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .goo1 .goo:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .t1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1060px;
+    top: -190px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .t1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .t1 .t{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .t1 .t:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
+
+.qora .vi1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 1120px;
+    top: -240px;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+.qora .vi1:hover{
+    background-color: white;
+    color: black;
+}
+
+.qora .vi1 .vi{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.qora .vi1 .vi:hover{
+    filter: drop-shadow(5px 10px 0.9px black);
+}
